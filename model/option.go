@@ -1,9 +1,10 @@
 package model
 
 import (
-	"github.com/levi/gintemplate/common"
 	"strconv"
 	"strings"
+
+	"github.com/levi/gin-template/common"
 )
 
 type Option struct {

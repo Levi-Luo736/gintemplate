@@ -5,13 +5,14 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/levi/gintemplate/common"
-	"github.com/levi/gintemplate/model"
-	"github.com/gin-contrib/sessions"
-	"github.com/gin-gonic/gin"
 	"net/http"
 	"strconv"
 	"time"
+
+	"github.com/gin-contrib/sessions"
+	"github.com/gin-gonic/gin"
+	"github.com/levi/gin-template/common"
+	"github.com/levi/gin-template/model"
 )
 
 type GitHubOAuthResponse struct {

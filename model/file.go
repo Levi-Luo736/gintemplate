@@ -1,11 +1,12 @@
 package model
 
 import (
-	"github.com/levi/gintemplate/common"
-	_ "gorm.io/driver/sqlite"
-	"gorm.io/gorm"
 	"os"
 	"path"
+
+	"github.com/levi/gin-template/common"
+	_ "gorm.io/driver/sqlite"
+	"gorm.io/gorm"
 )
 
 type File struct {

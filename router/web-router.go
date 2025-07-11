@@ -2,12 +2,13 @@ package router
 
 import (
 	"embed"
-	"github.com/levi/gintemplate/common"
-	"github.com/levi/gintemplate/controller"
-	"github.com/levi/gintemplate/middleware"
+	"net/http"
+
 	"github.com/gin-contrib/static"
 	"github.com/gin-gonic/gin"
-	"net/http"
+	"github.com/levi/gin-template/common"
+	"github.com/levi/gin-template/controller"
+	"github.com/levi/gin-template/middleware"
 )
 
 func setWebRouter(router *gin.Engine, buildFS embed.FS, indexPage []byte) {

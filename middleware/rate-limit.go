@@ -3,10 +3,11 @@ package middleware
 import (
 	"context"
 	"fmt"
-	"github.com/levi/gintemplate/common"
-	"github.com/gin-gonic/gin"
 	"net/http"
 	"time"
+
+	"github.com/gin-gonic/gin"
+	"github.com/levi/gin-template/common"
 )
 
 var timeFormat = "2006-01-02T15:04:05.000Z"

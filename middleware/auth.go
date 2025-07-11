@@ -1,9 +1,10 @@
 package middleware
 
 import (
-	"github.com/levi/gintemplate/common"
-	"github.com/levi/gintemplate/model"
 	"net/http"
+
+	"github.com/levi/gin-template/common"
+	"github.com/levi/gin-template/model"
 
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-gonic/gin"

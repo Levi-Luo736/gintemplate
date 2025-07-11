@@ -2,14 +2,15 @@ package controller
 
 import (
 	"encoding/json"
-	"github.com/levi/gintemplate/common"
-	"github.com/levi/gintemplate/model"
-	"github.com/gin-contrib/sessions"
-	"github.com/gin-gonic/gin"
-	"github.com/google/uuid"
 	"net/http"
 	"strconv"
 	"strings"
+
+	"github.com/gin-contrib/sessions"
+	"github.com/gin-gonic/gin"
+	"github.com/google/uuid"
+	"github.com/levi/gin-template/common"
+	"github.com/levi/gin-template/model"
 )
 
 type LoginRequest struct {

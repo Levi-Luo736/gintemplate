@@ -6,10 +6,10 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/levi/gintemplate/common"
-	"github.com/levi/gintemplate/middleware"
-	"github.com/levi/gintemplate/model"
-	"github.com/levi/gintemplate/router"
+	"github.com/levi/gin-template/common"
+	"github.com/levi/gin-template/middleware"
+	"github.com/levi/gin-template/model"
+	"github.com/levi/gin-template/router"
 
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-contrib/sessions/cookie"

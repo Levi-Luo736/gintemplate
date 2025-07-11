@@ -2,8 +2,9 @@ package model
 
 import (
 	"errors"
-	"github.com/levi/gintemplate/common"
 	"strings"
+
+	"github.com/levi/gin-template/common"
 )
 
 // User if you add sensitive fields, don't forget to clean them in setupLogin function.

@@ -3,10 +3,11 @@ package controller
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/levi/gintemplate/common"
-	"github.com/levi/gintemplate/model"
-	"github.com/levi/gintemplate/utils"
 	"net/http"
+
+	"github.com/levi/gin-template/common"
+	"github.com/levi/gin-template/model"
+	"github.com/levi/gin-template/utils"
 
 	"github.com/gin-gonic/gin"
 )

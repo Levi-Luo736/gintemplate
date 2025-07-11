@@ -1,8 +1,9 @@
 package model
 
 import (
-	"github.com/levi/gintemplate/common"
 	"os"
+
+	"github.com/levi/gin-template/common"
 
 	"gorm.io/driver/mysql"
 	"gorm.io/driver/sqlite"
