@@ -1,7 +1,7 @@
 package model
 
 import (
-	"gin-template/common"
+	"github.com/levi/gintemplate/common"
 	"os"
 
 	"gorm.io/driver/mysql"

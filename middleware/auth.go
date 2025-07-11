@@ -1,11 +1,12 @@
 package middleware
 
 import (
-	"gin-template/common"
-	"gin-template/model"
+	"github.com/levi/gintemplate/common"
+	"github.com/levi/gintemplate/model"
+	"net/http"
+
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-gonic/gin"
-	"net/http"
 )
 
 func authHelper(c *gin.Context, minRole int) {

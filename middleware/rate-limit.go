@@ -3,7 +3,7 @@ package middleware
 import (
 	"context"
 	"fmt"
-	"gin-template/common"
+	"github.com/levi/gintemplate/common"
 	"github.com/gin-gonic/gin"
 	"net/http"
 	"time"

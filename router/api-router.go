@@ -1,8 +1,8 @@
 package router
 
 import (
-	"gin-template/controller"
-	"gin-template/middleware"
+	"github.com/levi/gintemplate/controller"
+	"github.com/levi/gintemplate/middleware"
 	"github.com/gin-gonic/gin"
 )
 

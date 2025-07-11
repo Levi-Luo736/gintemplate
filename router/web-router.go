@@ -2,9 +2,9 @@ package router
 
 import (
 	"embed"
-	"gin-template/common"
-	"gin-template/controller"
-	"gin-template/middleware"
+	"github.com/levi/gintemplate/common"
+	"github.com/levi/gintemplate/controller"
+	"github.com/levi/gintemplate/middleware"
 	"github.com/gin-contrib/static"
 	"github.com/gin-gonic/gin"
 	"net/http"

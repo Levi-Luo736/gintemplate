@@ -2,8 +2,8 @@ package controller
 
 import (
 	"fmt"
-	"gin-template/common"
-	"gin-template/model"
+	"github.com/levi/gintemplate/common"
+	"github.com/levi/gintemplate/model"
 	"github.com/gin-gonic/gin"
 	"net/http"
 	"path/filepath"

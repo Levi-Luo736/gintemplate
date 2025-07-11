@@ -3,9 +3,9 @@ package controller
 import (
 	"encoding/json"
 	"fmt"
-	"gin-template/common"
-	"gin-template/model"
-	"gin-template/utils"
+	"github.com/levi/gintemplate/common"
+	"github.com/levi/gintemplate/model"
+	"github.com/levi/gintemplate/utils"
 	"net/http"
 
 	"github.com/gin-gonic/gin"

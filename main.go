@@ -2,13 +2,14 @@ package main
 
 import (
 	"embed"
-	"gin-template/common"
-	"gin-template/middleware"
-	"gin-template/model"
-	"gin-template/router"
 	"log"
 	"os"
 	"strconv"
+
+	"github.com/levi/gintemplate/common"
+	"github.com/levi/gintemplate/middleware"
+	"github.com/levi/gintemplate/model"
+	"github.com/levi/gintemplate/router"
 
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-contrib/sessions/cookie"
@@ -58,7 +59,7 @@ func main() {
 	// Initialize session store
 	if common.RedisEnabled {
 		opt := common.ParseRedisOption()
-		store, _ := redis.NewStore(opt.MinIdleConns, opt.Network, opt.Addr, opt.Password, []byte(common.SessionSecret))
+		store, _ := redis.NewStore(opt.MinIdleConns, opt.Network, opt.Addr, opt.Password, common.SessionSecret)
 		server.Use(sessions.Sessions("session", store))
 	} else {
 		store := cookie.NewStore([]byte(common.SessionSecret))

@@ -2,8 +2,8 @@ package controller
 
 import (
 	"encoding/json"
-	"gin-template/common"
-	"gin-template/model"
+	"github.com/levi/gintemplate/common"
+	"github.com/levi/gintemplate/model"
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
