@@ -5,3 +5,6 @@ pkg
 *.exe
 *.db
 build
+logs
+*.env
+gin-template

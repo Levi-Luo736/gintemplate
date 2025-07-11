@@ -23,7 +23,7 @@ var buildFS embed.FS
 var indexPage []byte
 
 func main() {
-	// common.LoadEnv()
+	common.LoadEnv()
 	common.SetupGinLog()
 	common.SysLog("Gin Template " + common.Version + " started")
 	if os.Getenv("GIN_MODE") != "debug" {
@@ -64,7 +64,6 @@ func main() {
 		store := cookie.NewStore([]byte(common.SessionSecret))
 		server.Use(sessions.Sessions("session", store))
 	}
-
 	router.SetRouter(server, buildFS, indexPage)
 	var port = os.Getenv("PORT")
 	if port == "" {
