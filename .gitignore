@@ -1,0 +1,7 @@
+.idea
+.vscode
+upload
+pkg
+*.exe
+*.db
+build
